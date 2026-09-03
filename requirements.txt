@@ -1,0 +1,2 @@
+# No external dependencies - scoring, sensitivity, and evaluation
+# are implemented using only the Python standard library.

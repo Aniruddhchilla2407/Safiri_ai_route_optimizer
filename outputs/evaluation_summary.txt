@@ -1,0 +1,11 @@
+n_shipments: 40
+pct_non_dominated_recommendations: 100.0
+pct_matches_cheapest_baseline: 30.0
+pct_matches_fastest_baseline: 25.0
+pct_matches_safest_baseline: 40.0
+avg_extra_cost_vs_cheapest_when_differs: 650.3378571428572
+avg_extra_days_vs_fastest_when_differs: 8.433333333333334
+avg_extra_effective_risk_vs_safest_when_differs: 0.13465833333333332
+avg_recommendation_stability: 0.8939999999999999
+pct_robust_recommendations: 87.5
+stability_threshold_used: 0.7

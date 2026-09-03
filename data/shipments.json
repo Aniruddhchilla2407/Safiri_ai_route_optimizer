@@ -1,0 +1,2695 @@
+[
+  {
+    "shipment_id": "SHP001",
+    "origin": "Los Angeles",
+    "destination": "Shanghai",
+    "cargo_type": "Pharmaceuticals",
+    "priority": "time_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP001-R1",
+        "hubs": [],
+        "cost_usd": 1932.98,
+        "transit_time_days": 35.4,
+        "delay_probability": 0.191,
+        "risk_indicators": {
+          "congestion": 0.51,
+          "geopolitical": 0.226,
+          "weather": 0.335
+        },
+        "risk_score": 0.376,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP001-R2",
+        "hubs": [],
+        "cost_usd": 2459.24,
+        "transit_time_days": 32.8,
+        "delay_probability": 0.15,
+        "risk_indicators": {
+          "congestion": 0.135,
+          "geopolitical": 0.056,
+          "weather": 0.093
+        },
+        "risk_score": 0.099,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP001-R3",
+        "hubs": [],
+        "cost_usd": 2145.29,
+        "transit_time_days": 24.2,
+        "delay_probability": 0.277,
+        "risk_indicators": {
+          "congestion": 0.412,
+          "geopolitical": 0.251,
+          "weather": 0.352
+        },
+        "risk_score": 0.344,
+        "archetype": "middle"
+      },
+      {
+        "route_id": "SHP001-R4",
+        "hubs": [],
+        "cost_usd": 2860.16,
+        "transit_time_days": 22.2,
+        "delay_probability": 0.307,
+        "risk_indicators": {
+          "congestion": 0.366,
+          "geopolitical": 0.349,
+          "weather": 0.286
+        },
+        "risk_score": 0.344,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP001-R5",
+        "hubs": [
+          "Panama Canal"
+        ],
+        "cost_usd": 2776.15,
+        "transit_time_days": 18.3,
+        "delay_probability": 0.057,
+        "risk_indicators": {
+          "congestion": 0.287,
+          "geopolitical": 0.124,
+          "weather": 0.17
+        },
+        "risk_score": 0.206,
+        "archetype": "fast"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP002",
+    "origin": "Mumbai (Nhava Sheva)",
+    "destination": "Ho Chi Minh City",
+    "cargo_type": "Bulk Grain",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP002-R1",
+        "hubs": [
+          "Malacca Strait"
+        ],
+        "cost_usd": 824.85,
+        "transit_time_days": 16.9,
+        "delay_probability": 0.226,
+        "risk_indicators": {
+          "congestion": 0.578,
+          "geopolitical": 0.306,
+          "weather": 0.266
+        },
+        "risk_score": 0.42,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP002-R2",
+        "hubs": [],
+        "cost_usd": 759.89,
+        "transit_time_days": 16.0,
+        "delay_probability": 0.298,
+        "risk_indicators": {
+          "congestion": 0.395,
+          "geopolitical": 0.18,
+          "weather": 0.263
+        },
+        "risk_score": 0.293,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP002-R3",
+        "hubs": [
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 1268.88,
+        "transit_time_days": 15.7,
+        "delay_probability": 0.061,
+        "risk_indicators": {
+          "congestion": 0.233,
+          "geopolitical": 0.08,
+          "weather": 0.103
+        },
+        "risk_score": 0.153,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP002-R4",
+        "hubs": [
+          "Cape of Good Hope"
+        ],
+        "cost_usd": 1406.48,
+        "transit_time_days": 10.7,
+        "delay_probability": 0.111,
+        "risk_indicators": {
+          "congestion": 0.266,
+          "geopolitical": 0.399,
+          "weather": 0.253
+        },
+        "risk_score": 0.31,
+        "archetype": "fast"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP003",
+    "origin": "Singapore",
+    "destination": "Los Angeles",
+    "cargo_type": "Automotive Parts",
+    "priority": "time_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP003-R1",
+        "hubs": [
+          "Malta Freeport"
+        ],
+        "cost_usd": 2798.43,
+        "transit_time_days": 22.9,
+        "delay_probability": 0.172,
+        "risk_indicators": {
+          "congestion": 0.416,
+          "geopolitical": 0.305,
+          "weather": 0.261
+        },
+        "risk_score": 0.346,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP003-R2",
+        "hubs": [
+          "Panama Canal"
+        ],
+        "cost_usd": 2590.78,
+        "transit_time_days": 30.5,
+        "delay_probability": 0.199,
+        "risk_indicators": {
+          "congestion": 0.051,
+          "geopolitical": 0.114,
+          "weather": 0.194
+        },
+        "risk_score": 0.101,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP003-R3",
+        "hubs": [
+          "Malta Freeport"
+        ],
+        "cost_usd": 2127.86,
+        "transit_time_days": 40.4,
+        "delay_probability": 0.15,
+        "risk_indicators": {
+          "congestion": 0.39,
+          "geopolitical": 0.292,
+          "weather": 0.383
+        },
+        "risk_score": 0.354,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP003-R4",
+        "hubs": [
+          "Malta Freeport"
+        ],
+        "cost_usd": 2158.37,
+        "transit_time_days": 40.7,
+        "delay_probability": 0.18,
+        "risk_indicators": {
+          "congestion": 0.576,
+          "geopolitical": 0.28,
+          "weather": 0.347
+        },
+        "risk_score": 0.426,
+        "archetype": "cheap"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP004",
+    "origin": "Colombo",
+    "destination": "New York",
+    "cargo_type": "Textiles",
+    "priority": "cost_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP004-R1",
+        "hubs": [
+          "Bosphorus Strait"
+        ],
+        "cost_usd": 845.59,
+        "transit_time_days": 20.1,
+        "delay_probability": 0.355,
+        "risk_indicators": {
+          "congestion": 0.458,
+          "geopolitical": 0.282,
+          "weather": 0.489
+        },
+        "risk_score": 0.403,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP004-R2",
+        "hubs": [
+          "Colombo Transshipment"
+        ],
+        "cost_usd": 1282.6,
+        "transit_time_days": 13.5,
+        "delay_probability": 0.141,
+        "risk_indicators": {
+          "congestion": 0.293,
+          "geopolitical": 0.325,
+          "weather": 0.263
+        },
+        "risk_score": 0.298,
+        "archetype": "middle"
+      },
+      {
+        "route_id": "SHP004-R3",
+        "hubs": [],
+        "cost_usd": 1403.45,
+        "transit_time_days": 15.2,
+        "delay_probability": 0.105,
+        "risk_indicators": {
+          "congestion": 0.096,
+          "geopolitical": 0.049,
+          "weather": 0.064
+        },
+        "risk_score": 0.073,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP004-R4",
+        "hubs": [
+          "Panama Canal"
+        ],
+        "cost_usd": 1627.19,
+        "transit_time_days": 11.4,
+        "delay_probability": 0.09,
+        "risk_indicators": {
+          "congestion": 0.221,
+          "geopolitical": 0.171,
+          "weather": 0.301
+        },
+        "risk_score": 0.22,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP004-R5",
+        "hubs": [
+          "Bosphorus Strait"
+        ],
+        "cost_usd": 1370.0,
+        "transit_time_days": 14.8,
+        "delay_probability": 0.06,
+        "risk_indicators": {
+          "congestion": 0.131,
+          "geopolitical": 0.032,
+          "weather": 0.182
+        },
+        "risk_score": 0.107,
+        "archetype": "safe"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP005",
+    "origin": "Felixstowe",
+    "destination": "Ho Chi Minh City",
+    "cargo_type": "Electronics",
+    "priority": "time_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP005-R1",
+        "hubs": [
+          "Panama Canal"
+        ],
+        "cost_usd": 3070.18,
+        "transit_time_days": 35.4,
+        "delay_probability": 0.038,
+        "risk_indicators": {
+          "congestion": 0.14,
+          "geopolitical": 0.075,
+          "weather": 0.106
+        },
+        "risk_score": 0.11,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP005-R2",
+        "hubs": [],
+        "cost_usd": 2497.06,
+        "transit_time_days": 42.6,
+        "delay_probability": 0.305,
+        "risk_indicators": {
+          "congestion": 0.465,
+          "geopolitical": 0.115,
+          "weather": 0.5
+        },
+        "risk_score": 0.35,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP005-R3",
+        "hubs": [],
+        "cost_usd": 3871.21,
+        "transit_time_days": 27.3,
+        "delay_probability": 0.139,
+        "risk_indicators": {
+          "congestion": 0.25,
+          "geopolitical": 0.246,
+          "weather": 0.164
+        },
+        "risk_score": 0.231,
+        "archetype": "fast"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP006",
+    "origin": "Singapore",
+    "destination": "Antwerp",
+    "cargo_type": "Furniture",
+    "priority": "cost_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP006-R1",
+        "hubs": [
+          "Malacca Strait",
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 3957.73,
+        "transit_time_days": 24.0,
+        "delay_probability": 0.112,
+        "risk_indicators": {
+          "congestion": 0.374,
+          "geopolitical": 0.263,
+          "weather": 0.324
+        },
+        "risk_score": 0.325,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP006-R2",
+        "hubs": [
+          "Malta Freeport",
+          "Malacca Strait"
+        ],
+        "cost_usd": 3292.74,
+        "transit_time_days": 33.5,
+        "delay_probability": 0.185,
+        "risk_indicators": {
+          "congestion": 0.22,
+          "geopolitical": 0.029,
+          "weather": 0.064
+        },
+        "risk_score": 0.122,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP006-R3",
+        "hubs": [
+          "Panama Canal",
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 1930.69,
+        "transit_time_days": 44.1,
+        "delay_probability": 0.171,
+        "risk_indicators": {
+          "congestion": 0.325,
+          "geopolitical": 0.297,
+          "weather": 0.37
+        },
+        "risk_score": 0.324,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP006-R4",
+        "hubs": [
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 3158.72,
+        "transit_time_days": 39.8,
+        "delay_probability": 0.078,
+        "risk_indicators": {
+          "congestion": 0.103,
+          "geopolitical": 0.037,
+          "weather": 0.179
+        },
+        "risk_score": 0.095,
+        "archetype": "safe"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP007",
+    "origin": "Rotterdam",
+    "destination": "Shanghai",
+    "cargo_type": "Chemicals",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP007-R1",
+        "hubs": [
+          "Malacca Strait"
+        ],
+        "cost_usd": 1684.78,
+        "transit_time_days": 32.0,
+        "delay_probability": 0.319,
+        "risk_indicators": {
+          "congestion": 0.564,
+          "geopolitical": 0.211,
+          "weather": 0.247
+        },
+        "risk_score": 0.377,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP007-R2",
+        "hubs": [
+          "Malta Freeport"
+        ],
+        "cost_usd": 2351.22,
+        "transit_time_days": 22.1,
+        "delay_probability": 0.025,
+        "risk_indicators": {
+          "congestion": 0.11,
+          "geopolitical": 0.106,
+          "weather": 0.238
+        },
+        "risk_score": 0.134,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP007-R3",
+        "hubs": [],
+        "cost_usd": 2548.57,
+        "transit_time_days": 18.2,
+        "delay_probability": 0.113,
+        "risk_indicators": {
+          "congestion": 0.247,
+          "geopolitical": 0.185,
+          "weather": 0.163
+        },
+        "risk_score": 0.208,
+        "archetype": "fast"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP008",
+    "origin": "Mumbai (Nhava Sheva)",
+    "destination": "Alexandria",
+    "cargo_type": "Chemicals",
+    "priority": "cost_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP008-R1",
+        "hubs": [
+          "Colombo Transshipment"
+        ],
+        "cost_usd": 984.54,
+        "transit_time_days": 10.5,
+        "delay_probability": 0.211,
+        "risk_indicators": {
+          "congestion": 0.191,
+          "geopolitical": 0.093,
+          "weather": 0.072
+        },
+        "risk_score": 0.133,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP008-R2",
+        "hubs": [
+          "Malta Freeport"
+        ],
+        "cost_usd": 654.54,
+        "transit_time_days": 11.7,
+        "delay_probability": 0.187,
+        "risk_indicators": {
+          "congestion": 0.466,
+          "geopolitical": 0.229,
+          "weather": 0.213
+        },
+        "risk_score": 0.332,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP008-R3",
+        "hubs": [],
+        "cost_usd": 935.91,
+        "transit_time_days": 12.8,
+        "delay_probability": 0.177,
+        "risk_indicators": {
+          "congestion": 0.1,
+          "geopolitical": 0.033,
+          "weather": 0.206
+        },
+        "risk_score": 0.098,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP008-R4",
+        "hubs": [
+          "Malacca Strait",
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 1201.59,
+        "transit_time_days": 8.2,
+        "delay_probability": 0.281,
+        "risk_indicators": {
+          "congestion": 0.443,
+          "geopolitical": 0.364,
+          "weather": 0.107
+        },
+        "risk_score": 0.348,
+        "archetype": "fast"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP009",
+    "origin": "Santos",
+    "destination": "Felixstowe",
+    "cargo_type": "Textiles",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP009-R1",
+        "hubs": [
+          "Gibraltar Strait",
+          "Malta Freeport"
+        ],
+        "cost_usd": 1158.58,
+        "transit_time_days": 14.7,
+        "delay_probability": 0.0,
+        "risk_indicators": {
+          "congestion": 0.111,
+          "geopolitical": 0.123,
+          "weather": 0.096
+        },
+        "risk_score": 0.112,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP009-R2",
+        "hubs": [
+          "Cape of Good Hope"
+        ],
+        "cost_usd": 1380.94,
+        "transit_time_days": 8.6,
+        "delay_probability": 0.201,
+        "risk_indicators": {
+          "congestion": 0.49,
+          "geopolitical": 0.184,
+          "weather": 0.292
+        },
+        "risk_score": 0.343,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP009-R3",
+        "hubs": [
+          "Suez Canal"
+        ],
+        "cost_usd": 915.1,
+        "transit_time_days": 14.0,
+        "delay_probability": 0.138,
+        "risk_indicators": {
+          "congestion": 0.354,
+          "geopolitical": 0.389,
+          "weather": 0.28
+        },
+        "risk_score": 0.351,
+        "archetype": "cheap"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP010",
+    "origin": "Felixstowe",
+    "destination": "Colombo",
+    "cargo_type": "Bulk Grain",
+    "priority": "cost_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP010-R1",
+        "hubs": [
+          "Suez Canal"
+        ],
+        "cost_usd": 2939.99,
+        "transit_time_days": 40.2,
+        "delay_probability": 0.187,
+        "risk_indicators": {
+          "congestion": 0.235,
+          "geopolitical": 0.09,
+          "weather": 0.194
+        },
+        "risk_score": 0.176,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP010-R2",
+        "hubs": [
+          "Jebel Ali Transshipment"
+        ],
+        "cost_usd": 3940.7,
+        "transit_time_days": 24.7,
+        "delay_probability": 0.155,
+        "risk_indicators": {
+          "congestion": 0.476,
+          "geopolitical": 0.287,
+          "weather": 0.299
+        },
+        "risk_score": 0.375,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP010-R3",
+        "hubs": [
+          "Malta Freeport"
+        ],
+        "cost_usd": 2183.99,
+        "transit_time_days": 41.2,
+        "delay_probability": 0.183,
+        "risk_indicators": {
+          "congestion": 0.421,
+          "geopolitical": 0.189,
+          "weather": 0.238
+        },
+        "risk_score": 0.303,
+        "archetype": "cheap"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP011",
+    "origin": "Piraeus",
+    "destination": "Antwerp",
+    "cargo_type": "Machinery",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP011-R1",
+        "hubs": [
+          "Cape of Good Hope"
+        ],
+        "cost_usd": 2031.68,
+        "transit_time_days": 14.6,
+        "delay_probability": 0.189,
+        "risk_indicators": {
+          "congestion": 0.297,
+          "geopolitical": 0.233,
+          "weather": 0.303
+        },
+        "risk_score": 0.275,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP011-R2",
+        "hubs": [
+          "Panama Canal"
+        ],
+        "cost_usd": 1863.73,
+        "transit_time_days": 19.6,
+        "delay_probability": 0.05,
+        "risk_indicators": {
+          "congestion": 0.174,
+          "geopolitical": 0.032,
+          "weather": 0.24
+        },
+        "risk_score": 0.138,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP011-R3",
+        "hubs": [
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 1098.91,
+        "transit_time_days": 25.4,
+        "delay_probability": 0.293,
+        "risk_indicators": {
+          "congestion": 0.314,
+          "geopolitical": 0.395,
+          "weather": 0.383
+        },
+        "risk_score": 0.356,
+        "archetype": "cheap"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP012",
+    "origin": "Ho Chi Minh City",
+    "destination": "Felixstowe",
+    "cargo_type": "Machinery",
+    "priority": "time_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP012-R1",
+        "hubs": [],
+        "cost_usd": 2722.46,
+        "transit_time_days": 21.0,
+        "delay_probability": 0.243,
+        "risk_indicators": {
+          "congestion": 0.441,
+          "geopolitical": 0.309,
+          "weather": 0.239
+        },
+        "risk_score": 0.354,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP012-R2",
+        "hubs": [],
+        "cost_usd": 2767.71,
+        "transit_time_days": 29.8,
+        "delay_probability": 0.231,
+        "risk_indicators": {
+          "congestion": 0.184,
+          "geopolitical": 0.148,
+          "weather": 0.169
+        },
+        "risk_score": 0.168,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP012-R3",
+        "hubs": [
+          "Malta Freeport",
+          "Cape of Good Hope"
+        ],
+        "cost_usd": 2902.74,
+        "transit_time_days": 21.2,
+        "delay_probability": 0.185,
+        "risk_indicators": {
+          "congestion": 0.469,
+          "geopolitical": 0.323,
+          "weather": 0.242
+        },
+        "risk_score": 0.373,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP012-R4",
+        "hubs": [
+          "Colombo Transshipment"
+        ],
+        "cost_usd": 1792.37,
+        "transit_time_days": 36.4,
+        "delay_probability": 0.166,
+        "risk_indicators": {
+          "congestion": 0.488,
+          "geopolitical": 0.182,
+          "weather": 0.223
+        },
+        "risk_score": 0.328,
+        "archetype": "cheap"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP013",
+    "origin": "Mumbai (Nhava Sheva)",
+    "destination": "Santos",
+    "cargo_type": "Bulk Grain",
+    "priority": "cost_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP013-R1",
+        "hubs": [
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 947.88,
+        "transit_time_days": 9.9,
+        "delay_probability": 0.08,
+        "risk_indicators": {
+          "congestion": 0.159,
+          "geopolitical": 0.074,
+          "weather": 0.091
+        },
+        "risk_score": 0.116,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP013-R2",
+        "hubs": [],
+        "cost_usd": 715.47,
+        "transit_time_days": 13.8,
+        "delay_probability": 0.249,
+        "risk_indicators": {
+          "congestion": 0.414,
+          "geopolitical": 0.102,
+          "weather": 0.306
+        },
+        "risk_score": 0.283,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP013-R3",
+        "hubs": [
+          "Malta Freeport",
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 1022.23,
+        "transit_time_days": 7.4,
+        "delay_probability": 0.264,
+        "risk_indicators": {
+          "congestion": 0.346,
+          "geopolitical": 0.217,
+          "weather": 0.301
+        },
+        "risk_score": 0.292,
+        "archetype": "fast"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP014",
+    "origin": "Antwerp",
+    "destination": "Ho Chi Minh City",
+    "cargo_type": "Automotive Parts",
+    "priority": "cost_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP014-R1",
+        "hubs": [],
+        "cost_usd": 2974.1,
+        "transit_time_days": 33.4,
+        "delay_probability": 0.056,
+        "risk_indicators": {
+          "congestion": 0.141,
+          "geopolitical": 0.064,
+          "weather": 0.226
+        },
+        "risk_score": 0.131,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP014-R2",
+        "hubs": [
+          "Colombo Transshipment",
+          "Panama Canal"
+        ],
+        "cost_usd": 3572.94,
+        "transit_time_days": 23.4,
+        "delay_probability": 0.082,
+        "risk_indicators": {
+          "congestion": 0.216,
+          "geopolitical": 0.386,
+          "weather": 0.167
+        },
+        "risk_score": 0.265,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP014-R3",
+        "hubs": [],
+        "cost_usd": 3053.53,
+        "transit_time_days": 32.5,
+        "delay_probability": 0.052,
+        "risk_indicators": {
+          "congestion": 0.25,
+          "geopolitical": 0.105,
+          "weather": 0.188
+        },
+        "risk_score": 0.187,
+        "archetype": "middle"
+      },
+      {
+        "route_id": "SHP014-R4",
+        "hubs": [],
+        "cost_usd": 1928.41,
+        "transit_time_days": 41.2,
+        "delay_probability": 0.277,
+        "risk_indicators": {
+          "congestion": 0.51,
+          "geopolitical": 0.33,
+          "weather": 0.25
+        },
+        "risk_score": 0.395,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP014-R5",
+        "hubs": [],
+        "cost_usd": 1893.19,
+        "transit_time_days": 43.3,
+        "delay_probability": 0.255,
+        "risk_indicators": {
+          "congestion": 0.393,
+          "geopolitical": 0.274,
+          "weather": 0.479
+        },
+        "risk_score": 0.368,
+        "archetype": "cheap"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP015",
+    "origin": "Piraeus",
+    "destination": "Hong Kong",
+    "cargo_type": "Textiles",
+    "priority": "cost_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP015-R1",
+        "hubs": [],
+        "cost_usd": 2310.36,
+        "transit_time_days": 28.5,
+        "delay_probability": 0.0,
+        "risk_indicators": {
+          "congestion": 0.058,
+          "geopolitical": 0.089,
+          "weather": 0.182
+        },
+        "risk_score": 0.094,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP015-R2",
+        "hubs": [
+          "Suez Canal"
+        ],
+        "cost_usd": 1713.76,
+        "transit_time_days": 32.5,
+        "delay_probability": 0.31,
+        "risk_indicators": {
+          "congestion": 0.332,
+          "geopolitical": 0.388,
+          "weather": 0.391
+        },
+        "risk_score": 0.363,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP015-R3",
+        "hubs": [
+          "Cape of Good Hope"
+        ],
+        "cost_usd": 2529.03,
+        "transit_time_days": 16.2,
+        "delay_probability": 0.292,
+        "risk_indicators": {
+          "congestion": 0.395,
+          "geopolitical": 0.285,
+          "weather": 0.376
+        },
+        "risk_score": 0.353,
+        "archetype": "fast"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP016",
+    "origin": "Ho Chi Minh City",
+    "destination": "Felixstowe",
+    "cargo_type": "Machinery",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP016-R1",
+        "hubs": [
+          "Gibraltar Strait",
+          "Bosphorus Strait"
+        ],
+        "cost_usd": 1642.89,
+        "transit_time_days": 18.7,
+        "delay_probability": 0.09,
+        "risk_indicators": {
+          "congestion": 0.117,
+          "geopolitical": 0.084,
+          "weather": 0.115
+        },
+        "risk_score": 0.105,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP016-R2",
+        "hubs": [
+          "Colombo Transshipment"
+        ],
+        "cost_usd": 1212.69,
+        "transit_time_days": 20.1,
+        "delay_probability": 0.322,
+        "risk_indicators": {
+          "congestion": 0.51,
+          "geopolitical": 0.183,
+          "weather": 0.203
+        },
+        "risk_score": 0.334,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP016-R3",
+        "hubs": [],
+        "cost_usd": 1722.48,
+        "transit_time_days": 11.5,
+        "delay_probability": 0.234,
+        "risk_indicators": {
+          "congestion": 0.367,
+          "geopolitical": 0.172,
+          "weather": 0.243
+        },
+        "risk_score": 0.274,
+        "archetype": "fast"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP017",
+    "origin": "Ho Chi Minh City",
+    "destination": "Shanghai",
+    "cargo_type": "Perishable Produce",
+    "priority": "balanced",
+    "routes": [
+      {
+        "route_id": "SHP017-R1",
+        "hubs": [
+          "Malta Freeport",
+          "Jebel Ali Transshipment"
+        ],
+        "cost_usd": 2776.54,
+        "transit_time_days": 18.7,
+        "delay_probability": 0.132,
+        "risk_indicators": {
+          "congestion": 0.292,
+          "geopolitical": 0.169,
+          "weather": 0.316
+        },
+        "risk_score": 0.254,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP017-R2",
+        "hubs": [
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 1725.66,
+        "transit_time_days": 31.1,
+        "delay_probability": 0.228,
+        "risk_indicators": {
+          "congestion": 0.517,
+          "geopolitical": 0.393,
+          "weather": 0.357
+        },
+        "risk_score": 0.442,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP017-R3",
+        "hubs": [],
+        "cost_usd": 1625.37,
+        "transit_time_days": 36.0,
+        "delay_probability": 0.132,
+        "risk_indicators": {
+          "congestion": 0.408,
+          "geopolitical": 0.191,
+          "weather": 0.412
+        },
+        "risk_score": 0.333,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP017-R4",
+        "hubs": [],
+        "cost_usd": 2562.9,
+        "transit_time_days": 33.1,
+        "delay_probability": 0.111,
+        "risk_indicators": {
+          "congestion": 0.189,
+          "geopolitical": 0.036,
+          "weather": 0.224
+        },
+        "risk_score": 0.143,
+        "archetype": "safe"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP018",
+    "origin": "Shanghai",
+    "destination": "Chennai",
+    "cargo_type": "Pharmaceuticals",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP018-R1",
+        "hubs": [
+          "Panama Canal",
+          "Malta Freeport"
+        ],
+        "cost_usd": 1720.35,
+        "transit_time_days": 21.3,
+        "delay_probability": 0.107,
+        "risk_indicators": {
+          "congestion": 0.176,
+          "geopolitical": 0.027,
+          "weather": 0.08
+        },
+        "risk_score": 0.105,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP018-R2",
+        "hubs": [
+          "Panama Canal"
+        ],
+        "cost_usd": 1141.22,
+        "transit_time_days": 27.8,
+        "delay_probability": 0.205,
+        "risk_indicators": {
+          "congestion": 0.529,
+          "geopolitical": 0.282,
+          "weather": 0.437
+        },
+        "risk_score": 0.424,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP018-R3",
+        "hubs": [
+          "Bosphorus Strait",
+          "Malta Freeport"
+        ],
+        "cost_usd": 2123.95,
+        "transit_time_days": 13.8,
+        "delay_probability": 0.287,
+        "risk_indicators": {
+          "congestion": 0.329,
+          "geopolitical": 0.271,
+          "weather": 0.118
+        },
+        "risk_score": 0.266,
+        "archetype": "fast"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP019",
+    "origin": "Los Angeles",
+    "destination": "Busan",
+    "cargo_type": "Textiles",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP019-R1",
+        "hubs": [],
+        "cost_usd": 1631.79,
+        "transit_time_days": 29.6,
+        "delay_probability": 0.181,
+        "risk_indicators": {
+          "congestion": 0.507,
+          "geopolitical": 0.241,
+          "weather": 0.21
+        },
+        "risk_score": 0.354,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP019-R2",
+        "hubs": [
+          "Bosphorus Strait"
+        ],
+        "cost_usd": 2316.28,
+        "transit_time_days": 25.1,
+        "delay_probability": 0.172,
+        "risk_indicators": {
+          "congestion": 0.103,
+          "geopolitical": 0.123,
+          "weather": 0.168
+        },
+        "risk_score": 0.123,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP019-R3",
+        "hubs": [
+          "Cape of Good Hope"
+        ],
+        "cost_usd": 2570.14,
+        "transit_time_days": 17.2,
+        "delay_probability": 0.045,
+        "risk_indicators": {
+          "congestion": 0.245,
+          "geopolitical": 0.18,
+          "weather": 0.143
+        },
+        "risk_score": 0.202,
+        "archetype": "fast"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP020",
+    "origin": "New York",
+    "destination": "Chennai",
+    "cargo_type": "Pharmaceuticals",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP020-R1",
+        "hubs": [
+          "Panama Canal",
+          "Suez Canal"
+        ],
+        "cost_usd": 2265.64,
+        "transit_time_days": 16.2,
+        "delay_probability": 0.209,
+        "risk_indicators": {
+          "congestion": 0.381,
+          "geopolitical": 0.108,
+          "weather": 0.169
+        },
+        "risk_score": 0.243,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP020-R2",
+        "hubs": [],
+        "cost_usd": 1413.73,
+        "transit_time_days": 28.9,
+        "delay_probability": 0.191,
+        "risk_indicators": {
+          "congestion": 0.381,
+          "geopolitical": 0.112,
+          "weather": 0.427
+        },
+        "risk_score": 0.296,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP020-R3",
+        "hubs": [
+          "Colombo Transshipment",
+          "Malacca Strait"
+        ],
+        "cost_usd": 1316.08,
+        "transit_time_days": 28.9,
+        "delay_probability": 0.261,
+        "risk_indicators": {
+          "congestion": 0.544,
+          "geopolitical": 0.391,
+          "weather": 0.341
+        },
+        "risk_score": 0.45,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP020-R4",
+        "hubs": [
+          "Panama Canal"
+        ],
+        "cost_usd": 1891.9,
+        "transit_time_days": 24.9,
+        "delay_probability": 0.191,
+        "risk_indicators": {
+          "congestion": 0.189,
+          "geopolitical": 0.057,
+          "weather": 0.239
+        },
+        "risk_score": 0.153,
+        "archetype": "safe"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP021",
+    "origin": "Vancouver",
+    "destination": "Singapore",
+    "cargo_type": "Chemicals",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP021-R1",
+        "hubs": [
+          "Suez Canal",
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 1630.23,
+        "transit_time_days": 18.5,
+        "delay_probability": 0.04,
+        "risk_indicators": {
+          "congestion": 0.15,
+          "geopolitical": 0.077,
+          "weather": 0.06
+        },
+        "risk_score": 0.107,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP021-R2",
+        "hubs": [
+          "Colombo Transshipment"
+        ],
+        "cost_usd": 1153.67,
+        "transit_time_days": 20.6,
+        "delay_probability": 0.176,
+        "risk_indicators": {
+          "congestion": 0.336,
+          "geopolitical": 0.392,
+          "weather": 0.383
+        },
+        "risk_score": 0.365,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP021-R3",
+        "hubs": [
+          "Colombo Transshipment"
+        ],
+        "cost_usd": 1606.68,
+        "transit_time_days": 18.7,
+        "delay_probability": 0.097,
+        "risk_indicators": {
+          "congestion": 0.069,
+          "geopolitical": 0.149,
+          "weather": 0.233
+        },
+        "risk_score": 0.13,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP021-R4",
+        "hubs": [],
+        "cost_usd": 1640.71,
+        "transit_time_days": 12.5,
+        "delay_probability": 0.205,
+        "risk_indicators": {
+          "congestion": 0.48,
+          "geopolitical": 0.188,
+          "weather": 0.312
+        },
+        "risk_score": 0.344,
+        "archetype": "fast"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP022",
+    "origin": "Durban",
+    "destination": "Hong Kong",
+    "cargo_type": "Textiles",
+    "priority": "balanced",
+    "routes": [
+      {
+        "route_id": "SHP022-R1",
+        "hubs": [
+          "Jebel Ali Transshipment",
+          "Colombo Transshipment"
+        ],
+        "cost_usd": 2074.6,
+        "transit_time_days": 27.4,
+        "delay_probability": 0.106,
+        "risk_indicators": {
+          "congestion": 0.11,
+          "geopolitical": 0.096,
+          "weather": 0.25
+        },
+        "risk_score": 0.133,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP022-R2",
+        "hubs": [
+          "Bosphorus Strait"
+        ],
+        "cost_usd": 1874.27,
+        "transit_time_days": 21.9,
+        "delay_probability": 0.152,
+        "risk_indicators": {
+          "congestion": 0.338,
+          "geopolitical": 0.236,
+          "weather": 0.264
+        },
+        "risk_score": 0.287,
+        "archetype": "middle"
+      },
+      {
+        "route_id": "SHP022-R3",
+        "hubs": [
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 2280.89,
+        "transit_time_days": 16.8,
+        "delay_probability": 0.247,
+        "risk_indicators": {
+          "congestion": 0.433,
+          "geopolitical": 0.113,
+          "weather": 0.323
+        },
+        "risk_score": 0.299,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP022-R4",
+        "hubs": [
+          "Cape of Good Hope",
+          "Malacca Strait"
+        ],
+        "cost_usd": 1275.57,
+        "transit_time_days": 28.6,
+        "delay_probability": 0.337,
+        "risk_indicators": {
+          "congestion": 0.451,
+          "geopolitical": 0.277,
+          "weather": 0.461
+        },
+        "risk_score": 0.392,
+        "archetype": "cheap"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP023",
+    "origin": "Ho Chi Minh City",
+    "destination": "Los Angeles",
+    "cargo_type": "Consumer Goods",
+    "priority": "balanced",
+    "routes": [
+      {
+        "route_id": "SHP023-R1",
+        "hubs": [],
+        "cost_usd": 878.33,
+        "transit_time_days": 9.2,
+        "delay_probability": 0.186,
+        "risk_indicators": {
+          "congestion": 0.118,
+          "geopolitical": 0.11,
+          "weather": 0.18
+        },
+        "risk_score": 0.127,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP023-R2",
+        "hubs": [
+          "Jebel Ali Transshipment",
+          "Bosphorus Strait"
+        ],
+        "cost_usd": 805.41,
+        "transit_time_days": 6.6,
+        "delay_probability": 0.301,
+        "risk_indicators": {
+          "congestion": 0.221,
+          "geopolitical": 0.289,
+          "weather": 0.376
+        },
+        "risk_score": 0.276,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP023-R3",
+        "hubs": [],
+        "cost_usd": 479.36,
+        "transit_time_days": 10.4,
+        "delay_probability": 0.307,
+        "risk_indicators": {
+          "congestion": 0.49,
+          "geopolitical": 0.362,
+          "weather": 0.333
+        },
+        "risk_score": 0.414,
+        "archetype": "cheap"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP024",
+    "origin": "Shanghai",
+    "destination": "Singapore",
+    "cargo_type": "Bulk Grain",
+    "priority": "cost_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP024-R1",
+        "hubs": [
+          "Malacca Strait"
+        ],
+        "cost_usd": 1706.56,
+        "transit_time_days": 10.8,
+        "delay_probability": 0.218,
+        "risk_indicators": {
+          "congestion": 0.315,
+          "geopolitical": 0.305,
+          "weather": 0.249
+        },
+        "risk_score": 0.298,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP024-R2",
+        "hubs": [
+          "Bosphorus Strait"
+        ],
+        "cost_usd": 1658.82,
+        "transit_time_days": 11.9,
+        "delay_probability": 0.183,
+        "risk_indicators": {
+          "congestion": 0.4,
+          "geopolitical": 0.37,
+          "weather": 0.24
+        },
+        "risk_score": 0.357,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP024-R3",
+        "hubs": [
+          "Panama Canal"
+        ],
+        "cost_usd": 1463.31,
+        "transit_time_days": 17.2,
+        "delay_probability": 0.054,
+        "risk_indicators": {
+          "congestion": 0.168,
+          "geopolitical": 0.103,
+          "weather": 0.135
+        },
+        "risk_score": 0.138,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP024-R4",
+        "hubs": [
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 1147.37,
+        "transit_time_days": 22.3,
+        "delay_probability": 0.145,
+        "risk_indicators": {
+          "congestion": 0.332,
+          "geopolitical": 0.214,
+          "weather": 0.308
+        },
+        "risk_score": 0.286,
+        "archetype": "cheap"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP025",
+    "origin": "New York",
+    "destination": "Shanghai",
+    "cargo_type": "Furniture",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP025-R1",
+        "hubs": [
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 838.68,
+        "transit_time_days": 6.1,
+        "delay_probability": 0.271,
+        "risk_indicators": {
+          "congestion": 0.391,
+          "geopolitical": 0.286,
+          "weather": 0.303
+        },
+        "risk_score": 0.337,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP025-R2",
+        "hubs": [
+          "Panama Canal"
+        ],
+        "cost_usd": 558.27,
+        "transit_time_days": 11.3,
+        "delay_probability": 0.271,
+        "risk_indicators": {
+          "congestion": 0.393,
+          "geopolitical": 0.232,
+          "weather": 0.374
+        },
+        "risk_score": 0.333,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP025-R3",
+        "hubs": [],
+        "cost_usd": 752.29,
+        "transit_time_days": 10.1,
+        "delay_probability": 0.186,
+        "risk_indicators": {
+          "congestion": 0.133,
+          "geopolitical": 0.046,
+          "weather": 0.207
+        },
+        "risk_score": 0.117,
+        "archetype": "safe"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP026",
+    "origin": "Colombo",
+    "destination": "Alexandria",
+    "cargo_type": "Consumer Goods",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP026-R1",
+        "hubs": [],
+        "cost_usd": 2935.98,
+        "transit_time_days": 21.9,
+        "delay_probability": 0.246,
+        "risk_indicators": {
+          "congestion": 0.426,
+          "geopolitical": 0.168,
+          "weather": 0.303
+        },
+        "risk_score": 0.311,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP026-R2",
+        "hubs": [
+          "Malta Freeport",
+          "Jebel Ali Transshipment"
+        ],
+        "cost_usd": 2826.02,
+        "transit_time_days": 29.7,
+        "delay_probability": 0.138,
+        "risk_indicators": {
+          "congestion": 0.103,
+          "geopolitical": 0.036,
+          "weather": 0.124
+        },
+        "risk_score": 0.084,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP026-R3",
+        "hubs": [
+          "Cape of Good Hope"
+        ],
+        "cost_usd": 2245.38,
+        "transit_time_days": 41.0,
+        "delay_probability": 0.261,
+        "risk_indicators": {
+          "congestion": 0.333,
+          "geopolitical": 0.17,
+          "weather": 0.208
+        },
+        "risk_score": 0.251,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP026-R4",
+        "hubs": [
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 2972.55,
+        "transit_time_days": 34.8,
+        "delay_probability": 0.023,
+        "risk_indicators": {
+          "congestion": 0.143,
+          "geopolitical": 0.111,
+          "weather": 0.18
+        },
+        "risk_score": 0.139,
+        "archetype": "safe"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP027",
+    "origin": "Singapore",
+    "destination": "Hong Kong",
+    "cargo_type": "Pharmaceuticals",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP027-R1",
+        "hubs": [
+          "Bosphorus Strait",
+          "Jebel Ali Transshipment"
+        ],
+        "cost_usd": 777.94,
+        "transit_time_days": 14.5,
+        "delay_probability": 0.19,
+        "risk_indicators": {
+          "congestion": 0.584,
+          "geopolitical": 0.226,
+          "weather": 0.423
+        },
+        "risk_score": 0.426,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP027-R2",
+        "hubs": [
+          "Panama Canal",
+          "Bosphorus Strait"
+        ],
+        "cost_usd": 1266.98,
+        "transit_time_days": 8.3,
+        "delay_probability": 0.17,
+        "risk_indicators": {
+          "congestion": 0.284,
+          "geopolitical": 0.307,
+          "weather": 0.165
+        },
+        "risk_score": 0.268,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP027-R3",
+        "hubs": [
+          "Jebel Ali Transshipment"
+        ],
+        "cost_usd": 1099.2,
+        "transit_time_days": 10.9,
+        "delay_probability": 0.093,
+        "risk_indicators": {
+          "congestion": 0.159,
+          "geopolitical": 0.147,
+          "weather": 0.122
+        },
+        "risk_score": 0.147,
+        "archetype": "safe"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP028",
+    "origin": "Busan",
+    "destination": "Los Angeles",
+    "cargo_type": "Chemicals",
+    "priority": "time_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP028-R1",
+        "hubs": [],
+        "cost_usd": 2433.43,
+        "transit_time_days": 30.4,
+        "delay_probability": 0.174,
+        "risk_indicators": {
+          "congestion": 0.167,
+          "geopolitical": 0.126,
+          "weather": 0.097
+        },
+        "risk_score": 0.139,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP028-R2",
+        "hubs": [],
+        "cost_usd": 2397.88,
+        "transit_time_days": 22.9,
+        "delay_probability": 0.14,
+        "risk_indicators": {
+          "congestion": 0.447,
+          "geopolitical": 0.235,
+          "weather": 0.35
+        },
+        "risk_score": 0.353,
+        "archetype": "middle"
+      },
+      {
+        "route_id": "SHP028-R3",
+        "hubs": [],
+        "cost_usd": 2587.43,
+        "transit_time_days": 17.0,
+        "delay_probability": 0.154,
+        "risk_indicators": {
+          "congestion": 0.437,
+          "geopolitical": 0.277,
+          "weather": 0.105
+        },
+        "risk_score": 0.314,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP028-R4",
+        "hubs": [
+          "Cape of Good Hope"
+        ],
+        "cost_usd": 1770.63,
+        "transit_time_days": 31.9,
+        "delay_probability": 0.158,
+        "risk_indicators": {
+          "congestion": 0.443,
+          "geopolitical": 0.333,
+          "weather": 0.354
+        },
+        "risk_score": 0.387,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP028-R5",
+        "hubs": [
+          "Suez Canal"
+        ],
+        "cost_usd": 2613.01,
+        "transit_time_days": 29.6,
+        "delay_probability": 0.003,
+        "risk_indicators": {
+          "congestion": 0.182,
+          "geopolitical": 0.059,
+          "weather": 0.179
+        },
+        "risk_score": 0.138,
+        "archetype": "safe"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP029",
+    "origin": "Durban",
+    "destination": "Piraeus",
+    "cargo_type": "Furniture",
+    "priority": "cost_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP029-R1",
+        "hubs": [],
+        "cost_usd": 2070.34,
+        "transit_time_days": 21.0,
+        "delay_probability": 0.134,
+        "risk_indicators": {
+          "congestion": 0.167,
+          "geopolitical": 0.113,
+          "weather": 0.126
+        },
+        "risk_score": 0.14,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP029-R2",
+        "hubs": [
+          "Bosphorus Strait"
+        ],
+        "cost_usd": 1775.52,
+        "transit_time_days": 20.2,
+        "delay_probability": 0.28,
+        "risk_indicators": {
+          "congestion": 0.398,
+          "geopolitical": 0.129,
+          "weather": 0.314
+        },
+        "risk_score": 0.287,
+        "archetype": "middle"
+      },
+      {
+        "route_id": "SHP029-R3",
+        "hubs": [
+          "Cape of Good Hope"
+        ],
+        "cost_usd": 1265.1,
+        "transit_time_days": 26.2,
+        "delay_probability": 0.122,
+        "risk_indicators": {
+          "congestion": 0.402,
+          "geopolitical": 0.236,
+          "weather": 0.325
+        },
+        "risk_score": 0.328,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP029-R4",
+        "hubs": [
+          "Jebel Ali Transshipment",
+          "Colombo Transshipment"
+        ],
+        "cost_usd": 2082.37,
+        "transit_time_days": 15.0,
+        "delay_probability": 0.121,
+        "risk_indicators": {
+          "congestion": 0.477,
+          "geopolitical": 0.12,
+          "weather": 0.35
+        },
+        "risk_score": 0.327,
+        "archetype": "fast"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP030",
+    "origin": "Los Angeles",
+    "destination": "Colombo",
+    "cargo_type": "Automotive Parts",
+    "priority": "cost_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP030-R1",
+        "hubs": [],
+        "cost_usd": 2550.49,
+        "transit_time_days": 19.0,
+        "delay_probability": 0.217,
+        "risk_indicators": {
+          "congestion": 0.305,
+          "geopolitical": 0.273,
+          "weather": 0.164
+        },
+        "risk_score": 0.266,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP030-R2",
+        "hubs": [
+          "Panama Canal"
+        ],
+        "cost_usd": 1576.07,
+        "transit_time_days": 28.7,
+        "delay_probability": 0.166,
+        "risk_indicators": {
+          "congestion": 0.334,
+          "geopolitical": 0.184,
+          "weather": 0.268
+        },
+        "risk_score": 0.268,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP030-R3",
+        "hubs": [],
+        "cost_usd": 1624.48,
+        "transit_time_days": 30.6,
+        "delay_probability": 0.273,
+        "risk_indicators": {
+          "congestion": 0.508,
+          "geopolitical": 0.109,
+          "weather": 0.282
+        },
+        "risk_score": 0.323,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP030-R4",
+        "hubs": [
+          "Jebel Ali Transshipment"
+        ],
+        "cost_usd": 2440.59,
+        "transit_time_days": 22.7,
+        "delay_probability": 0.129,
+        "risk_indicators": {
+          "congestion": 0.163,
+          "geopolitical": 0.072,
+          "weather": 0.078
+        },
+        "risk_score": 0.114,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP030-R5",
+        "hubs": [],
+        "cost_usd": 1563.78,
+        "transit_time_days": 26.9,
+        "delay_probability": 0.167,
+        "risk_indicators": {
+          "congestion": 0.413,
+          "geopolitical": 0.236,
+          "weather": 0.247
+        },
+        "risk_score": 0.318,
+        "archetype": "cheap"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP031",
+    "origin": "Santos",
+    "destination": "Chennai",
+    "cargo_type": "Machinery",
+    "priority": "cost_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP031-R1",
+        "hubs": [],
+        "cost_usd": 2173.42,
+        "transit_time_days": 37.6,
+        "delay_probability": 0.28,
+        "risk_indicators": {
+          "congestion": 0.446,
+          "geopolitical": 0.233,
+          "weather": 0.282
+        },
+        "risk_score": 0.338,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP031-R2",
+        "hubs": [],
+        "cost_usd": 2777.91,
+        "transit_time_days": 33.6,
+        "delay_probability": 0.073,
+        "risk_indicators": {
+          "congestion": 0.186,
+          "geopolitical": 0.097,
+          "weather": 0.155
+        },
+        "risk_score": 0.149,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP031-R3",
+        "hubs": [
+          "Cape of Good Hope"
+        ],
+        "cost_usd": 3060.67,
+        "transit_time_days": 25.4,
+        "delay_probability": 0.271,
+        "risk_indicators": {
+          "congestion": 0.261,
+          "geopolitical": 0.384,
+          "weather": 0.33
+        },
+        "risk_score": 0.318,
+        "archetype": "fast"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP032",
+    "origin": "New York",
+    "destination": "Santos",
+    "cargo_type": "Perishable Produce",
+    "priority": "balanced",
+    "routes": [
+      {
+        "route_id": "SHP032-R1",
+        "hubs": [],
+        "cost_usd": 1399.79,
+        "transit_time_days": 9.0,
+        "delay_probability": 0.133,
+        "risk_indicators": {
+          "congestion": 0.331,
+          "geopolitical": 0.238,
+          "weather": 0.123
+        },
+        "risk_score": 0.257,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP032-R2",
+        "hubs": [
+          "Cape of Good Hope",
+          "Malta Freeport"
+        ],
+        "cost_usd": 804.14,
+        "transit_time_days": 15.1,
+        "delay_probability": 0.254,
+        "risk_indicators": {
+          "congestion": 0.59,
+          "geopolitical": 0.152,
+          "weather": 0.484
+        },
+        "risk_score": 0.415,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP032-R3",
+        "hubs": [
+          "Panama Canal"
+        ],
+        "cost_usd": 1110.2,
+        "transit_time_days": 13.8,
+        "delay_probability": 0.175,
+        "risk_indicators": {
+          "congestion": 0.137,
+          "geopolitical": 0.072,
+          "weather": 0.066
+        },
+        "risk_score": 0.1,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP032-R4",
+        "hubs": [
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 743.76,
+        "transit_time_days": 15.3,
+        "delay_probability": 0.305,
+        "risk_indicators": {
+          "congestion": 0.453,
+          "geopolitical": 0.134,
+          "weather": 0.353
+        },
+        "risk_score": 0.321,
+        "archetype": "cheap"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP033",
+    "origin": "Colombo",
+    "destination": "Hong Kong",
+    "cargo_type": "Automotive Parts",
+    "priority": "time_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP033-R1",
+        "hubs": [
+          "Bosphorus Strait"
+        ],
+        "cost_usd": 929.67,
+        "transit_time_days": 10.2,
+        "delay_probability": 0.246,
+        "risk_indicators": {
+          "congestion": 0.345,
+          "geopolitical": 0.27,
+          "weather": 0.371
+        },
+        "risk_score": 0.324,
+        "archetype": "middle"
+      },
+      {
+        "route_id": "SHP033-R2",
+        "hubs": [
+          "Jebel Ali Transshipment"
+        ],
+        "cost_usd": 1038.41,
+        "transit_time_days": 7.2,
+        "delay_probability": 0.072,
+        "risk_indicators": {
+          "congestion": 0.333,
+          "geopolitical": 0.191,
+          "weather": 0.182
+        },
+        "risk_score": 0.253,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP033-R3",
+        "hubs": [],
+        "cost_usd": 1013.33,
+        "transit_time_days": 11.2,
+        "delay_probability": 0.166,
+        "risk_indicators": {
+          "congestion": 0.061,
+          "geopolitical": 0.128,
+          "weather": 0.065
+        },
+        "risk_score": 0.086,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP033-R4",
+        "hubs": [],
+        "cost_usd": 701.95,
+        "transit_time_days": 13.8,
+        "delay_probability": 0.334,
+        "risk_indicators": {
+          "congestion": 0.439,
+          "geopolitical": 0.266,
+          "weather": 0.438
+        },
+        "risk_score": 0.378,
+        "archetype": "cheap"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP034",
+    "origin": "Ho Chi Minh City",
+    "destination": "Chennai",
+    "cargo_type": "Textiles",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP034-R1",
+        "hubs": [
+          "Suez Canal"
+        ],
+        "cost_usd": 1551.49,
+        "transit_time_days": 28.6,
+        "delay_probability": 0.189,
+        "risk_indicators": {
+          "congestion": 0.432,
+          "geopolitical": 0.257,
+          "weather": 0.248
+        },
+        "risk_score": 0.334,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP034-R2",
+        "hubs": [
+          "Cape of Good Hope"
+        ],
+        "cost_usd": 1989.82,
+        "transit_time_days": 22.7,
+        "delay_probability": 0.113,
+        "risk_indicators": {
+          "congestion": 0.349,
+          "geopolitical": 0.297,
+          "weather": 0.312
+        },
+        "risk_score": 0.324,
+        "archetype": "middle"
+      },
+      {
+        "route_id": "SHP034-R3",
+        "hubs": [],
+        "cost_usd": 2013.28,
+        "transit_time_days": 23.4,
+        "delay_probability": 0.227,
+        "risk_indicators": {
+          "congestion": 0.263,
+          "geopolitical": 0.313,
+          "weather": 0.391
+        },
+        "risk_score": 0.306,
+        "archetype": "middle"
+      },
+      {
+        "route_id": "SHP034-R4",
+        "hubs": [
+          "Jebel Ali Transshipment"
+        ],
+        "cost_usd": 2391.47,
+        "transit_time_days": 23.7,
+        "delay_probability": 0.162,
+        "risk_indicators": {
+          "congestion": 0.233,
+          "geopolitical": 0.06,
+          "weather": 0.181
+        },
+        "risk_score": 0.162,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP034-R5",
+        "hubs": [
+          "Panama Canal"
+        ],
+        "cost_usd": 2495.17,
+        "transit_time_days": 16.9,
+        "delay_probability": 0.318,
+        "risk_indicators": {
+          "congestion": 0.437,
+          "geopolitical": 0.344,
+          "weather": 0.301
+        },
+        "risk_score": 0.377,
+        "archetype": "fast"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP035",
+    "origin": "Alexandria",
+    "destination": "Rotterdam",
+    "cargo_type": "Furniture",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP035-R1",
+        "hubs": [
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 833.08,
+        "transit_time_days": 6.8,
+        "delay_probability": 0.208,
+        "risk_indicators": {
+          "congestion": 0.289,
+          "geopolitical": 0.336,
+          "weather": 0.252
+        },
+        "risk_score": 0.298,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP035-R2",
+        "hubs": [],
+        "cost_usd": 870.69,
+        "transit_time_days": 9.8,
+        "delay_probability": 0.032,
+        "risk_indicators": {
+          "congestion": 0.174,
+          "geopolitical": 0.098,
+          "weather": 0.081
+        },
+        "risk_score": 0.128,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP035-R3",
+        "hubs": [
+          "Bosphorus Strait"
+        ],
+        "cost_usd": 698.79,
+        "transit_time_days": 7.3,
+        "delay_probability": 0.286,
+        "risk_indicators": {
+          "congestion": 0.38,
+          "geopolitical": 0.342,
+          "weather": 0.303
+        },
+        "risk_score": 0.351,
+        "archetype": "middle"
+      },
+      {
+        "route_id": "SHP035-R4",
+        "hubs": [
+          "Gibraltar Strait",
+          "Malta Freeport"
+        ],
+        "cost_usd": 604.41,
+        "transit_time_days": 10.1,
+        "delay_probability": 0.349,
+        "risk_indicators": {
+          "congestion": 0.441,
+          "geopolitical": 0.351,
+          "weather": 0.31
+        },
+        "risk_score": 0.383,
+        "archetype": "cheap"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP036",
+    "origin": "Ho Chi Minh City",
+    "destination": "Hong Kong",
+    "cargo_type": "Pharmaceuticals",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP036-R1",
+        "hubs": [
+          "Suez Canal"
+        ],
+        "cost_usd": 2211.41,
+        "transit_time_days": 24.7,
+        "delay_probability": 0.186,
+        "risk_indicators": {
+          "congestion": 0.161,
+          "geopolitical": 0.033,
+          "weather": 0.219
+        },
+        "risk_score": 0.128,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP036-R2",
+        "hubs": [
+          "Panama Canal"
+        ],
+        "cost_usd": 2167.68,
+        "transit_time_days": 16.5,
+        "delay_probability": 0.308,
+        "risk_indicators": {
+          "congestion": 0.472,
+          "geopolitical": 0.144,
+          "weather": 0.231
+        },
+        "risk_score": 0.309,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP036-R3",
+        "hubs": [
+          "Bosphorus Strait"
+        ],
+        "cost_usd": 2235.73,
+        "transit_time_days": 26.2,
+        "delay_probability": 0.069,
+        "risk_indicators": {
+          "congestion": 0.133,
+          "geopolitical": 0.072,
+          "weather": 0.125
+        },
+        "risk_score": 0.11,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP036-R4",
+        "hubs": [],
+        "cost_usd": 1198.98,
+        "transit_time_days": 26.2,
+        "delay_probability": 0.357,
+        "risk_indicators": {
+          "congestion": 0.579,
+          "geopolitical": 0.352,
+          "weather": 0.395
+        },
+        "risk_score": 0.463,
+        "archetype": "cheap"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP037",
+    "origin": "Dubai (Jebel Ali)",
+    "destination": "Singapore",
+    "cargo_type": "Pharmaceuticals",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP037-R1",
+        "hubs": [
+          "Suez Canal",
+          "Panama Canal"
+        ],
+        "cost_usd": 2061.37,
+        "transit_time_days": 13.6,
+        "delay_probability": 0.183,
+        "risk_indicators": {
+          "congestion": 0.245,
+          "geopolitical": 0.382,
+          "weather": 0.283
+        },
+        "risk_score": 0.3,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP037-R2",
+        "hubs": [
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 1161.42,
+        "transit_time_days": 24.7,
+        "delay_probability": 0.153,
+        "risk_indicators": {
+          "congestion": 0.426,
+          "geopolitical": 0.338,
+          "weather": 0.337
+        },
+        "risk_score": 0.377,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP037-R3",
+        "hubs": [
+          "Malta Freeport",
+          "Suez Canal"
+        ],
+        "cost_usd": 2003.0,
+        "transit_time_days": 23.7,
+        "delay_probability": 0.066,
+        "risk_indicators": {
+          "congestion": 0.194,
+          "geopolitical": 0.058,
+          "weather": 0.05
+        },
+        "risk_score": 0.117,
+        "archetype": "safe"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP038",
+    "origin": "Chennai",
+    "destination": "Felixstowe",
+    "cargo_type": "Automotive Parts",
+    "priority": "cost_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP038-R1",
+        "hubs": [],
+        "cost_usd": 2094.34,
+        "transit_time_days": 21.6,
+        "delay_probability": 0.123,
+        "risk_indicators": {
+          "congestion": 0.263,
+          "geopolitical": 0.104,
+          "weather": 0.347
+        },
+        "risk_score": 0.224,
+        "archetype": "middle"
+      },
+      {
+        "route_id": "SHP038-R2",
+        "hubs": [],
+        "cost_usd": 2206.85,
+        "transit_time_days": 26.2,
+        "delay_probability": 0.158,
+        "risk_indicators": {
+          "congestion": 0.117,
+          "geopolitical": 0.026,
+          "weather": 0.159
+        },
+        "risk_score": 0.093,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP038-R3",
+        "hubs": [
+          "Bosphorus Strait"
+        ],
+        "cost_usd": 1429.21,
+        "transit_time_days": 30.9,
+        "delay_probability": 0.297,
+        "risk_indicators": {
+          "congestion": 0.355,
+          "geopolitical": 0.14,
+          "weather": 0.415
+        },
+        "risk_score": 0.292,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP038-R4",
+        "hubs": [],
+        "cost_usd": 2122.13,
+        "transit_time_days": 15.4,
+        "delay_probability": 0.166,
+        "risk_indicators": {
+          "congestion": 0.26,
+          "geopolitical": 0.113,
+          "weather": 0.38
+        },
+        "risk_score": 0.232,
+        "archetype": "fast"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP039",
+    "origin": "Vancouver",
+    "destination": "Durban",
+    "cargo_type": "Pharmaceuticals",
+    "priority": "time_sensitive",
+    "routes": [
+      {
+        "route_id": "SHP039-R1",
+        "hubs": [
+          "Panama Canal"
+        ],
+        "cost_usd": 1631.3,
+        "transit_time_days": 12.1,
+        "delay_probability": 0.164,
+        "risk_indicators": {
+          "congestion": 0.32,
+          "geopolitical": 0.232,
+          "weather": 0.387
+        },
+        "risk_score": 0.303,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP039-R2",
+        "hubs": [
+          "Bosphorus Strait"
+        ],
+        "cost_usd": 980.41,
+        "transit_time_days": 20.6,
+        "delay_probability": 0.21,
+        "risk_indicators": {
+          "congestion": 0.539,
+          "geopolitical": 0.18,
+          "weather": 0.225
+        },
+        "risk_score": 0.351,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP039-R3",
+        "hubs": [
+          "Malacca Strait",
+          "Colombo Transshipment"
+        ],
+        "cost_usd": 1361.81,
+        "transit_time_days": 16.5,
+        "delay_probability": 0.093,
+        "risk_indicators": {
+          "congestion": 0.182,
+          "geopolitical": 0.06,
+          "weather": 0.171
+        },
+        "risk_score": 0.137,
+        "archetype": "safe"
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP040",
+    "origin": "Ho Chi Minh City",
+    "destination": "Colombo",
+    "cargo_type": "Chemicals",
+    "priority": "risk_averse",
+    "routes": [
+      {
+        "route_id": "SHP040-R1",
+        "hubs": [
+          "Malta Freeport"
+        ],
+        "cost_usd": 2425.37,
+        "transit_time_days": 29.3,
+        "delay_probability": 0.186,
+        "risk_indicators": {
+          "congestion": 0.241,
+          "geopolitical": 0.039,
+          "weather": 0.172
+        },
+        "risk_score": 0.156,
+        "archetype": "safe"
+      },
+      {
+        "route_id": "SHP040-R2",
+        "hubs": [],
+        "cost_usd": 1469.17,
+        "transit_time_days": 28.0,
+        "delay_probability": 0.143,
+        "risk_indicators": {
+          "congestion": 0.494,
+          "geopolitical": 0.209,
+          "weather": 0.485
+        },
+        "risk_score": 0.392,
+        "archetype": "cheap"
+      },
+      {
+        "route_id": "SHP040-R3",
+        "hubs": [
+          "Bosphorus Strait"
+        ],
+        "cost_usd": 2520.13,
+        "transit_time_days": 19.5,
+        "delay_probability": 0.199,
+        "risk_indicators": {
+          "congestion": 0.429,
+          "geopolitical": 0.272,
+          "weather": 0.259
+        },
+        "risk_score": 0.34,
+        "archetype": "fast"
+      },
+      {
+        "route_id": "SHP040-R4",
+        "hubs": [
+          "Gibraltar Strait"
+        ],
+        "cost_usd": 2349.84,
+        "transit_time_days": 19.5,
+        "delay_probability": 0.101,
+        "risk_indicators": {
+          "congestion": 0.256,
+          "geopolitical": 0.255,
+          "weather": 0.374
+        },
+        "risk_score": 0.279,
+        "archetype": "fast"
+      }
+    ]
+  }
+]
