@@ -13,18 +13,21 @@ risk_averse / balanced) - and explain *why* that route was chosen over the
 alternatives.
 
 ## Project structure
+
+```
 safiri_route_optimizer/
 ├── data/
-│ ├── generate_data.py # synthetic dataset generator
-│ └── shipments.json # 40 shipments, 3-5 routes each (input dataset)
+│   ├── generate_data.py     # synthetic dataset generator
+│   └── shipments.json       # 40 shipments, 3-5 routes each (input dataset)
 ├── src/
-│ ├── scoring.py # weighted multi-criteria scoring engine
-│ ├── explain.py # human-readable explanation generator
-│ ├── sensitivity.py # weight-perturbation robustness check
-│ ├── uncertainty.py # Monte Carlo delay-cost uncertainty simulation
-│ └── evaluate.py # Pareto-check + baseline comparison
-├── main.py # CLI entry point
+│   ├── scoring.py           # weighted multi-criteria scoring engine
+│   ├── explain.py           # human-readable explanation generator
+│   ├── sensitivity.py       # weight-perturbation robustness check
+│   ├── uncertainty.py       # Monte Carlo delay-cost uncertainty simulation
+│   └── evaluate.py          # Pareto-check + baseline comparison
+├── main.py                  # CLI entry point
 └── requirements.txt
+```
 ## Setup
 
 No external dependencies - Python 3.8+ standard library only.
