@@ -84,10 +84,25 @@ def explain_recommendation(shipment: dict, scored_routes: list, weights: dict = 
             lines.append("Why this route over the next-best alternative " + f"({runner_up.route['route_id']}):")
             for r in reasons:
                 lines.append(f"  - {r}")
+
         lines.append(
             f"  - Overall weighted score: {best.weighted_score:.3f} vs "
             f"{runner_up.weighted_score:.3f} for the runner-up (lower is better)"
         )
+
+        # Flag close calls explicitly: if the top two options are separated
+        # by a small margin, the "right" answer is genuinely uncertain and
+        # worth a human look, not just an automatic pick.
+        CLOSE_CALL_MARGIN = 0.15  # relative margin threshold, documented assumption
+        margin = (runner_up.weighted_score - best.weighted_score) / max(runner_up.weighted_score, 1e-9)
+        if margin < CLOSE_CALL_MARGIN:
+            lines.append("")
+            lines.append(
+                f"  NOTE: this is a close call - {best.route['route_id']} and "
+                f"{runner_up.route['route_id']} are separated by only "
+                f"{margin*100:.0f}% in weighted score. Consider a manual review "
+                f"(see stability check below)."
+            )
 
     lines.append("")
     lines.append("All options considered:")

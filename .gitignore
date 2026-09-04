@@ -5,3 +5,15 @@ src/__pycache__/
 
 # Local build artifacts or distribution directories
 .dist/
+
+# Generated outputs (regenerate with: python main.py --all)
+outputs/
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+.idea/
+
+# Virtual environments, if you use one
+venv/
+.venv/
